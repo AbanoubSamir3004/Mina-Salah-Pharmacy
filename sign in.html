@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sign In</title>
+	<link href="css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+	
+<style type="text/css">
+main {
+	width: 960px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F0F0F0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#sign_in {
+    background-color: #D5D5D5;
+    width: 662px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 11pt;
+    padding-top: 5px;
+    border-radius: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 240px;
+}
+.input_sign_in {
+	width: 225px;
+	height: 30px;
+	border-width: 0px;
+	border-radius: 5px;
+	padding-left: 5px;
+	margin-top: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-right: 10px;
+}
+.label_sign_in {
+	width: 80px;
+	display: flex;
+	height: 30px;
+	align-items: center;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#sign_in table {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8px;
+	width: 622px;
+	display: flex;
+	justify-content:center;
+}
+#submit {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 10px;
+}
+#sign_in table tr td label {
+	margin-left: 30px;
+}
+</style>
+</head>
+
+<body>
+<div id="flexbox">
+<div id="top_bar">
+<div id="social">
+	  <a href="#" id="google"></a>
+	  <a href="#" id="twitter"></a>
+	  <a href="#" id="facebook"></a>
+
+	<ul>
+	  <li><a href="login.html" id="archived">Login&nbsp;</a></li>
+	  <li><a href="sign in.html">Sign Up&nbsp;</a></li>
+	</ul>
+
+</div>
+	
+</div>
+<header>
+	<a href="index.html"><h1><span>M</span>ina <span>S</span>alah <br /> <span>P</span>harmacy</h1></a>
+</header>
+</div>
+<main>
+  <form action="login.html" method="post" name="sign_in" id="sign_in">
+    <label for="first_name" class="label_sign_in">First Name:</label>
+    <input name="first_name" type="text" required="required" class="input_sign_in" id="first_name" placeholder="First Name">
+    <label for="last_name" class="label_sign_in">Last Name:</label>
+    <input name="last_name" type="text" required="required" class="input_sign_in" id="last_name" placeholder="Last Name"><br>
+<label for="password" class="label_sign_in">Password:</label>
+    <input name="password" type="password" required="required" class="input_sign_in" id="password" placeholder="Password">
+    <label for="confirm_password" class="label_sign_in">Confirm<br>Password:</label>
+    <input name="confirm_password" type="password" required="required" class="input_sign_in" id="confirm_password" placeholder="Confirm Password"><br>
+    <label for="email" class="label_sign_in">Email:</label>
+<input name="email" type="email" required="required" class="input_sign_in" id="email" placeholder="Email@email.com">
+<label for="date" class="label_sign_in">Date:</label>
+<input name="date" type="date" required="required" class="input_sign_in" id="date" max="2010-01-01" min="1960-01-01" autocomplete="on" value="2000-01-01">
+<br>
+    <table width="200" align="center">
+      <tr>
+        <td><label>
+          <input type="radio" name="Gander" value="radio" id="Gander_0">
+          Male</label></td>
+		<td><label>        
+          <input type="radio" name="Gander" value="radio" id="Gander_1">
+          Female</label></td>
+        
+      </tr>
+    </table>
+    <input name="submit" type="submit" id="submit" formaction="login.html" value="CREATE">
+    <br>
+</form>
+	</main>
+	<footer>
+  <div id="arrow_top"><a href="#top"><img src="images/Arrow_top.png" alt="" width="82" height="41"/></a> </div>
+  <section>
+    <article>
+       <h4>On Social Media</h4>
+		<br>
+		<a href="#" id="facebookFooter">Facebook</a><br>
+		<a href="#" id="twitterFooter">Twitter</a><br>
+		<a href="#" id="googleFooter">Google</a><br>
+		<a href="#" id="whatsFooter">Whats App</a>
+	</article>
+	<article>
+		<h4>Address</h4>
+		<p>7st ElMostaShfa ElItaly -<br> ElAbasia - Cairo</p>
+		<h4>Phon Numbers</h4>
+		<p>0128 616 2154</p>
+		<p>0110 156 9124</p>
+		<p>0108 652 1159</p>
+	  </article>
+	
+  </section>
+<div id="copy_right">
+	<p>Copyright &copy; 2020 Mina Salah Pharmacy - All Rights Reserved</p>
+</div>
+
+</footer>
+</body>
+</html>
